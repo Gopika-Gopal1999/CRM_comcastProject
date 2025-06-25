@@ -1,0 +1,12 @@
+
+<suite name="Suite">
+<parameter name="Browser" value="chrome"/>
+<parameter name="Url" value="http://49.249.28.218:8888/"/>
+<parameter name="Username" value="admin"/>
+<parameter name="Password" value="admin"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.sel.generic.CreateOrgCmd"/>
+    </classes>
+  </test> 
+</suite> 
