@@ -15,6 +15,11 @@ public class ContactTest extends BaseClass{
 	{
 		System.out.println("Modify Contact");
 	}
+	@Test
+	public void delectContactTest()
+	{
+		System.out.println("Modify Contact");
+	}
 	
 
 }
